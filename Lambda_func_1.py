@@ -4,12 +4,10 @@ import logging
 import requests
 import six
 import random
-
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.handler_input import HandlerInput
 from ask_sdk_core.dispatch_components import (AbstractRequestHandler, AbstractExceptionHandler,AbstractResponseInterceptor, AbstractRequestInterceptor)
 from ask_sdk_core.utils import is_intent_name, is_request_type
-
 from typing import Union, Dict, Any, List
 from ask_sdk_model.dialog import (ElicitSlotDirective, DelegateDirective)
 from ask_sdk_model import (Response, IntentRequest, DialogState, SlotConfirmationStatus, Slot)
